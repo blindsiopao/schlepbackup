@@ -142,15 +142,20 @@ p {
 }
 
 
-  #audiowrap {
-  width: 120px
-  border: 2px solid burlywood;
-  background-color: darkorange;
+#audiowrap {
+  width: 120px; /* Set your desired width */
   padding: 0.5em;
-  width: 300px; /* or any width */
-  border-radius: 8px; /* optional: rounded corners */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* optional */
+  background-color: darkorange;
+  border: 2px solid burlywood;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
+
+#audiowrap audio {
+  width: 100%; /* Makes the audio player fill the wrapper */
+  outline: none; /* Optional: removes focus outline */
+}
+
   
   h1 {text-align:center;font:26px georgia;font-style:italic;color:#290E00;}
   
