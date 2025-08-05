@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -127,7 +127,7 @@ p {
 }
 
 #footer {
-    height: 20px;
+    height: 22px;
     background: #D48A24;
     border-radius: 10px;
     border: 1px solid #290E00;
@@ -155,6 +155,7 @@ p {
     background-color: darkorange;
     border: 2px solid burlywood;
       width: 400px;
+  margin: 0 auto;
     
 }
 #statuscafe-username {
@@ -220,14 +221,7 @@ color:#290E00;}
   display: block;
 }
 
- #top-left-img {
-  position: absolute;
-  width: 530px;
-  top: 30px;  /* adjust */
-  left: -49px; /* adjust */
-  transform: rotate(-5deg);
-  z-index: 1;
-}
+
 
 
 #musicplayer{
@@ -309,6 +303,14 @@ color:#290E00;}
         -webkit-appearance: none;
         margin-top: -4.5px; 
     }
+    
+    
+  
+    
+
+
+
+
 
 </style>
 </head>
@@ -345,10 +347,8 @@ color:#290E00;}
         <div id="contentwrap">
         <div id="content">
         <strong><div class="title"> <img src="https://i.imgur.com/kyDFKTj.gif"> Turn on, tune in, and drop out schleppers...and behold the greatest century there ever was...</div></center></strong>
-          <br>
-  <center><img src="https://i.imgur.com/v42rXIc.gif"></center>
-          <br>
-        <center>
+   
+<center><img src="https://i.imgur.com/v42rXIc.gif"></center>
         
           Welcome to my sandbox in this corner of the interwebs-- this here is a blog dedicated to celebrating my love for the twentieth century, specifically, the 1920s, late 50s, 60s, and 70s! (mainly the 60s and 70s) :]  
           <br>
@@ -358,23 +358,19 @@ color:#290E00;}
           <br>
 
         <h1 style="font-family: 'Freckle Face', cursive;"><img src="https://i.imgur.com/glxIyhj.png"> Keep on truckin!</h1>
-
-             <center><img src="https://i.imgur.com/HfPqyOK.gif"></center>
-           <br>
-           
-             <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=cybertomboy" defer></script>
+        
+        <center>
+<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=cybertomboy" defer></script>
              <br>
 
         </center>
-      
         
-        <div class="title">
-        <img src="https://i.imgur.com/kyDFKTj.gif"> 
-        <strong>
-        WEBRINGS...</strong>
-        
-        </div>
+        <center><img src="https://i.imgur.com/h2Az9oU.png" width="480"></center>
 
+           
+             
+      
+    
           
        
           
@@ -451,7 +447,9 @@ color:#290E00;}
           
           <br>
           
-<center><iframe src="https://www3.cbox.ws/box/?boxid=3533582&boxtag=saJiGi" width="180" height="300" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe></center>
+<center>
+<iframe src="https://www3.cbox.ws/box/?boxid=3533582&boxtag=saJiGi" width="180" height="300" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+</center>
 
  </div>
         </div>
@@ -462,14 +460,14 @@ color:#290E00;}
      <div id="footerwrap">
   <div id="footer">
   <a href="https://stories.bringthemhomenow.net/about-them" target="_blank">
-      <img src="https://i.imgur.com/FFfmNN6.png">
+      <img src="https://i.imgur.com/a2jogLL.gif">
     </a>
     Layout made by the ever lovely  
     <a href="http://itinerae.neocities.org" target="_blank">
       Itinerae. You have my heart :)
     </a>
     <a href="https://stories.bringthemhomenow.net/about-them" target="_blank">
-      <img src="https://i.imgur.com/FFfmNN6.png">
+      <img src="https://i.imgur.com/a2jogLL.gif">
     </a>
   </div>
 </div>
@@ -483,9 +481,7 @@ color:#290E00;}
   <img src="https://i.imgur.com/8GPsDvt.png">
 </div>
     
-    <div id="top-left-container">
-  <img src="https://i.imgur.com/J3wt6Nj.png" alt="Top Left Image" id="top-left-img">
-</div>
+   
     
     
     
@@ -529,20 +525,20 @@ color:#290E00;}
         // CATBOX.MOE IS RECOMMENDED FOR UPLOADING MP3 FILES
         let track_list = [
             {
+                name:"BABY TAKE ME IN YOUR ARMS - jefferson",
+                path:"https://files.catbox.moe/hwnc6o.mp3"
+            },
+            {
                 name:"SUMMER RAIN - johnny rivers",
                 path:"https://files.catbox.moe/asjt0z.mp3"
             },
             {
-                name:"GOODBYE COLUMBUS - the association",
-                path:"https://files.catbox.moe/ofgdxi.mp3"
+                name:"I'LL BE AROUND - the spinners",
+                path:"https://files.catbox.moe/k84i1j.mp3"
             },
             {
-                name:"HEY JUDE - diana ross and the supremes",
-                path:"https://files.catbox.moe/1pzc86.mp3"
-            },
-            {
-                name: "",
-                path: "",
+                name: "GOODBYE COLUMBUS - the association",
+                path: "https://files.catbox.moe/ofgdxi.mp3",
             },
         ];
         //
@@ -651,6 +647,7 @@ color:#290E00;}
         
         // load the first track in the tracklist
         loadTrack(track_index);
+        playTrack();
     </script>
 </body>
 </html>
